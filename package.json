@@ -1,0 +1,24 @@
+{
+  "name": "register-custom-block-styles",
+  "version": "1.0.0",
+  "description": "A reusable class to register custom block styles with associated stylesheets from the active theme.",
+  "engines": {
+    "node": ">=20.10.0",
+    "npm": ">=10.2.3"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^31.1.0",
+    "@wordpress/stylelint-config": "^22.5.0",
+    "grunt-wp-readme-to-markdown": "^2.1.0",
+    "stylelint": "^14.16.1"
+  },
+  "scripts": {
+    "lint:css": "stylelint **/*.css -i .gitignore",
+    "lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
+    "lint:php": "composer run-script lint",
+    "lint:php:fix": "composer run-script format",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "author": "Elliott Richmond",
+  "license": "GPL-2.0-or-later"
+}

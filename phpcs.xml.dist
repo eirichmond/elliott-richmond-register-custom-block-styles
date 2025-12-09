@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset name="Register Custom Block Styles">
+    <description>PHPCS ruleset for the Register Custom Block Styles plugin.</description>
+
+    <!-- What to scan -->
+    <file>.</file>
+    <exclude-pattern>/vendor/</exclude-pattern>
+    <exclude-pattern>/node_modules/</exclude-pattern>
+
+    <!-- Use WordPress coding standards -->
+    <rule ref="WordPress"/>
+
+    <!-- Set minimum supported PHP and WP versions -->
+    <config name="minimum_wp_version" value="6.0"/>
+    <config name="testVersion" value="7.4-"/>
+
+    <!-- Text domain for i18n -->
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" type="array">
+                <element value="register-custom-block-styles"/>
+            </property>
+        </properties>
+    </rule>
+</ruleset>
