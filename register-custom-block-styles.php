@@ -5,7 +5,7 @@
  * Description:     A reusable class to register custom block styles with associated stylesheets from the active theme.
  * Author:          Elliott Richmond
  * Author URI:      https://elliottrichmond.co.uk
- * Domain Path:		/languages
+ * Domain Path:		/
  * Text Domain:     register-custom-block-styles
  * Requires PHP:	7.4
  * License:			GPLv2 or later
