@@ -6,6 +6,8 @@
  * Author:          Elliott Richmond
  * Author URI:      https://elliottrichmond.co.uk
  * Text Domain:     register-custom-block-styles
+ * Requires PHP:	7.4
+ * License:			GPLv2 or later
  * Domain Path:     /languages
  * Version:         1.0.0
  *
