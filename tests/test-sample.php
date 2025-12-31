@@ -2,7 +2,7 @@
 /**
  * Class SampleTest
  *
- * @package Register_Custom_Block_Styles
+ * @package Elliott_Richmond_Register_Custom_Block_Styles
  */
 
 /**

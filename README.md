@@ -1,4 +1,4 @@
-# Register Custom Block Styles
+# Elliott Richmond Register Custom Block Styles
 
 A reusable class to register custom block styles with associated stylesheets from the active theme.
 
@@ -8,7 +8,7 @@ A reusable class to register custom block styles with associated stylesheets fro
 
 ## Description
 
-Register Custom Block Styles simplifies the process of adding block style variations by automating stylesheet registration and block style registration. Stylesheets are loaded from the active theme directory, making this ideal for theme-specific block styling.
+Elliott Richmond Register Custom Block Styles simplifies the process of adding block style variations by automating stylesheet registration and block style registration. Stylesheets are loaded from the active theme directory, making this ideal for theme-specific block styling.
 
 ### Features
 
@@ -20,7 +20,7 @@ Register Custom Block Styles simplifies the process of adding block style variat
 
 ## Installation
 
-1. Upload the `register-custom-block-styles` folder to the `/wp-content/plugins/` directory
+1. Upload the `elliott-richmond-register-custom-block-styles` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Instantiate the class in your theme's `functions.php` file using the example below
 
@@ -34,7 +34,7 @@ Add the following to your theme's `functions.php` file:
  */
 function theme_register_block_styles() {
     // Check if the class exists (plugin may not be active).
-    if ( ! class_exists( 'Register_Custom_Block_Styles' ) ) {
+    if ( ! class_exists( 'Elliott_Richmond_Register_Custom_Block_Styles' ) ) {
         return;
     }
 
@@ -51,7 +51,7 @@ function theme_register_block_styles() {
         ),
     );
 
-    new Register_Custom_Block_Styles( $block_styles );
+    new Elliott_Richmond_Register_Custom_Block_Styles( $block_styles );
 }
 add_action( 'after_setup_theme', 'theme_register_block_styles' );
 ```
@@ -70,7 +70,7 @@ For the example above, create:
 You can specify a custom path relative to your theme directory:
 
 ```php
-new Register_Custom_Block_Styles( $block_styles, '/css/block-styles/' );
+new Elliott_Richmond_Register_Custom_Block_Styles( $block_styles, '/css/block-styles/' );
 ```
 
 ## Required Array Structure

@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file.
  *
- * @package Register_Custom_Block_Styles
+ * @package Elliott_Richmond_Register_Custom_Block_Styles
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
@@ -29,7 +29,7 @@ require_once "{$_tests_dir}/includes/functions.php";
  * Manually load the plugin being tested.
  */
 function _manually_load_plugin() {
-	require dirname( __DIR__ ) . '/register-custom-block-styles.php';
+	require dirname( __DIR__ ) . '/elliott-richmond-register-custom-block-styles.php';
 }
 
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );

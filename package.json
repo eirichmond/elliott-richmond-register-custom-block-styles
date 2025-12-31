@@ -1,5 +1,5 @@
 {
-  "name": "register-custom-block-styles",
+  "name": "elliott-richmond-register-custom-block-styles",
   "version": "1.0.0",
   "description": "A reusable class to register custom block styles with associated stylesheets from the active theme.",
   "engines": {

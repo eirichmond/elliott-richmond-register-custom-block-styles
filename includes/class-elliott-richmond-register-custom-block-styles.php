@@ -1,20 +1,20 @@
 <?php
 /**
- * Register Custom Block Styles class file.
+ * Elliott Richmond Register Custom Block Styles class file.
  *
- * @package Register_Custom_Block_Styles
+ * @package Elliott_Richmond_Register_Custom_Block_Styles
  * @since   1.0.0
  */
 
 /**
- * Class Register_Custom_Block_Styles
+ * Class Elliott_Richmond_Register_Custom_Block_Styles
  *
  * Handles registration of custom block styles and their associated stylesheets.
  * Stylesheets are loaded from the active theme directory.
  *
  * @since 1.0.0
  */
-class Register_Custom_Block_Styles {
+class Elliott_Richmond_Register_Custom_Block_Styles {
 
 	/**
 	 * Array of block styles to register
@@ -72,7 +72,7 @@ class Register_Custom_Block_Styles {
 			// Only register if the file exists.
 			if ( ! file_exists( $css_path ) ) {
 				// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
-				error_log( sprintf( 'Register Custom Block Styles: CSS file not found: %s', $css_path ) );
+				error_log( sprintf( 'Elliott Richmond Register Custom Block Styles: CSS file not found: %s', $css_path ) );
 				continue;
 			}
 
