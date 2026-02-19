@@ -6,6 +6,11 @@
  * @since   1.0.0
  */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Class Elliott_Richmond_Register_Custom_Block_Styles
  *
