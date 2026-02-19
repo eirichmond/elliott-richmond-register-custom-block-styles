@@ -5,10 +5,10 @@
  * Description:     A reusable class to register custom block styles with associated stylesheets from the active theme.
  * Author:          Elliott Richmond
  * Author URI:      https://elliottrichmond.co.uk
- * Domain Path:		/
+ * Domain Path:     /
  * Text Domain:     elliott-richmond-register-custom-block-styles
- * Requires PHP:	7.4
- * License:			GPLv2 or later
+ * Requires PHP:    7.4
+ * License:         GPLv2 or later
  * Version:         1.0.0
  *
  * @package         Elliott_Richmond_Register_Custom_Block_Styles

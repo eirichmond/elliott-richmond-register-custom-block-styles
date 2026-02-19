@@ -1,5 +1,5 @@
 === Elliott Richmond Register Custom Block Styles ===
-Contributors: yourname
+Contributors: erichmond
 Tags: blocks, block styles, gutenberg, editor, styles
 Requires at least: 6.9
 Tested up to: 6.9
